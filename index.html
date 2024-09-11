@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <!-- <script>
+        // how do i do create a heading
+        //how do i create h1 tag incide a JavaScript , yes we will use "document.createElement" 
+        //this is the API that we will use to create H1 tag
+        
+       const heading = document.createElement("h1")
+       // let us put hello world incide this heading, how we do that?
+       heading.innerHTML = "Hello World from JS"
+       // now i want to put this heading incide my root(id), i need to find where is my root
+       const root = document.getElementById("root")// now i have root so need to put heading incide
+       // the root so for that i have function called "appand child" , it is basically appand child is basically a mathod which is there in every html node
+       root.appendChild(heading)
+   </script> --> 
+
+
+ <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+ <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+ <!-- how we create H1 tag in react
+  creating h1 incide the react thats the core thing, but now when we put this h1 into a dom(on to our brawser) i use reactDom
+ -->
+  <script src="./App.js">
+     
+     //const heading = React.createElement("h1", {},"Hello React");
+    // const root = ReactDom.createRoot(document.getElementById("root"));
+     //root.render(heading);
+
+  </script>
+    
+
+
+</body>
+</html>
+ 
