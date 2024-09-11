@@ -19,6 +19,7 @@ React.createElement("div", {id:"child2"}, [
      React.createElement("h2",{},"i am h2 tag")  
 ]),
 ]);
+//comment
 
 console.log(parent);
 const root = ReactDOM.createRoot(document.getElementById("root"));
